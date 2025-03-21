@@ -1,0 +1,32 @@
+{
+  "name": "zoybypxpunva.vq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "concurrently \"browser-sync start --config bs-config.js --no-ui --no-notify\" \"nodemon index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsyamsuddin/zoybypxpunva.vq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsyamsuddin/zoybypxpunva.vq/issues"
+  },
+  "homepage": "https://github.com/arsyamsuddin/zoybypxpunva.vq#readme",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
+  }
+}
