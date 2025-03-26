@@ -55,6 +55,7 @@ app.get('/static', (req, res) => {
 
 // Fase 4: Dynamic templating / server side + client side => Web 2.0 (next.js)
 // Menjalankan server
-app.listen(4000, () => {    
-        console.log(`Server berjalan di http://localhost:4000`);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server berjalan di port ${PORT}`);
 });
